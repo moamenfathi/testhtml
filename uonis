@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.buttons-container {
+ align-items: center;  
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.buttonshomepage {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: #219EBC;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-weight: bold;
+}
+.buttonshomepage:hover {
+    background-color: #7ab4c2;
+}
+.buttons-container.columns-1 .buttonshomepage {
+    width: calc(100% - 40px);
+}
+
+.buttons-container.columns-2 .buttonshomepage {
+    width: calc(50% - 40px);
+}
+.buttons-container.columns-3 .buttonshomepage {
+    width: calc(33.33% - 40px);
+}
+.buttons-container.columns-4 .buttonshomepage {
+    width: calc(25% - 40px);
+}
+.buttons-container.columns-5 .buttonshomepage {
+    width: calc(20% - 40px);
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="buttons-container columns-5">
+<a href="http://url" class="buttonshomepage button-1">نص</a>
+<a href="http://url" class="buttonshomepage button-2">نص</a>
+<a href="http://url" class="buttonshomepage button-3">نص</a>
+<a href="http://url" class="buttonshomepage button-4">نص</a>
+<a href="http://url" class="buttonshomepage button-5">نص</a>
+<a href="http://url" class="buttonshomepage button-6">نص</a>
+<a href="http://url" class="buttonshomepage button-7">نص</a>
+<a href="http://url" class="buttonshomepage button-8">نص</a>
+<a href="http://url" class="buttonshomepage button-9">نص</a>
+<a href="http://url" class="buttonshomepage button-10">نص</a>
+</div>
+
+</body>
+<html>
