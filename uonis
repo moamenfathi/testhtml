@@ -47,7 +47,7 @@
 </head>
 
 <body>
-
+<!-- الكلاس الى تحت اخر رقم فيه 5 بيعرض 5 أعمدة لو غيرت 5 الى  4 هيعرض 4 أعمدة وهكذا لو عاوز تزود أزرار خد كود الزر كوبي وكرره-->
 
 <div class="buttons-container columns-5">
 <a href="http://url" class="buttonshomepage button-1">نص</a>
